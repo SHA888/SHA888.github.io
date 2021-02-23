@@ -1,1 +1,1 @@
-# SHA888.github.io
+# Solo Project
