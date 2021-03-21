@@ -2,29 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700"
       rel="stylesheet"
       type="text/css"
-      <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"/>
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/8541149f04.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Kresna Sucandra | Portfolio</title>
   </head>
   <body>
     <header>
       <div class="full-width">
         <div class="half-width">
-          <h1>Kresna Sucandra</h1>
+          <h1><a href="../index.html">Kresna Sucandra</a></h1>
           <h2>
-            <span>Hi,</span> I'm a developer that loves clean &amp; elegant
+            <span>Hi,</span> I'm a web developer that loves clean &amp; elegant
             code.
           </h2>
         </div>
@@ -32,7 +34,7 @@
           <nav>
             <ul>
               <li><a href="#about">About</a></li>
-              <li><a href="#work">Work</a></li>
+              <li><a href="#">Work</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -40,7 +42,7 @@
       </div>
     </header>
     <main>
-      <section id="about">
+      <!-- <section id="about">
         <div class="full-width">
           <h2>A little bit about me.</h2>
           <div class="half-width">
@@ -64,11 +66,11 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> -->
       <section id="work">
         <div class="full-width">
           <div class="third-width">
-            <img src="img/html-icon.png" alt="HTML icon"/>
+            <img src="../img/html-icon.png" alt="HTML icon" />
             <h3>Hand-Coded HTML</h3>
             <p>
               My focus is writing clean, well-formatted, semantic HTML5 by hand
@@ -77,7 +79,7 @@
             </p>
           </div>
           <div class="third-width">
-            <img src="img/css-icon.png" alt="CSS icon"/>
+            <img src="../img/css-icon.png" alt="CSS icon" />
             <h3>Well-Organized CSS</h3>
             <p>
               I pride myself on writing CSS that is easy to read and build on. I
@@ -86,7 +88,7 @@
             </p>
           </div>
           <div class="third-width">
-            <img src="img/pencil-icon.png" alt="pencil icon"/>
+            <img src="../img/pencil-icon.png" alt="pencil icon" />
             <h3>Ease Converting Designs into Code</h3>
             <p>
               You can trust me to take a designer's PSD and quickly & accurately
@@ -98,41 +100,47 @@
       <footer id="contact">
         <div class="full-width">
           <div class="half-width">
-            <img id="contact-img"src="img/contact-image.png" alt="contact image" />
+            <img
+              id="contact-img"
+              src="../img/clear-dev.jpg"
+              alt="contact image"
+            />
           </div>
           <div class="half-width">
             <h2>Like what you see?</h2>
             <h3 id="email-header">Let's meet for a cup of coffee.</h3>
-            <a href="mailto:kresnasucandra@gmail.com"
-              ><img
-                id="envelope"
-                src="img/envelope.png"
-                alt="email"
-              />kresnasucandra [@] gmail.com</a
+            <a id="envelope" href="mailto:kresnasucandra@gmail.com">
+              <!-- <img id="envelope" src="img/envelope.png" alt="email" /> -->
+              <i class="far fa-envelope"></i>kresnasucandra [@] gmail.com</a
             >
             <h3 id="socialmedia-header">Or, find me on the interwebs</h3>
             <ul>
               <li>
-                <a href="https://twitter.com/ks_sha888" target="_blank"
-                  ><img src="img/twitter.png" alt="twitter"
-                /></a>
+                <a href="https://twitter.com/ks_sha888" target="_blank">
+                  <!-- <img src="img/twitter.png" alt="twitter"/> -->
+                  <i class="fab fa-twitter"></i
+                ></a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/kresna-sucandra/"
                   target="_blank"
-                  ><img src="img/linkedin.png" alt="twitter"
-                /></a>
+                >
+                  <!-- <img src="img/linkedin.png" alt="linkedin"/> -->
+                  <i class="fab fa-linkedin"></i
+                ></a>
               </li>
               <li>
-                <a href="https://github.com/SHA888" target="_blank"
-                  ><img src="img/github.png" alt="twitter"
-                /></a>
+                <a href="https://github.com/SHA888" target="_blank">
+                  <!-- <img src="img/github.png" alt="github"/> -->
+                  <i class="fab fa-github"></i
+                ></a>
               </li>
             </ul>
           </div>
         </div>
       </footer>
     </main>
+    <!-- Last edit Minggu malam -->
   </body>
 </html>
