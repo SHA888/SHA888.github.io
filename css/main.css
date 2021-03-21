@@ -23,51 +23,53 @@ body {
 
 /***** Header *****/
 header {
-    height: 800px;
-    background-image: url(../img/full-background.png);
-    background-size: cover;
-    background-position: center;
+  height: 650px;
+  background-image: url(../img/full-background.png);
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-    padding: 65px 0 65px 25px;
-    font-family: 'Lora Bold', serif;
-    font-size: 35px;
-    color: darksalmon;
+  text-transform: uppercase;
+  padding: 30px 0 65px 25px;
+  font-family: "Lora Bold", serif;
+  font-size: 35px;
+  color: #77a466 !important;
+}
+
+h1 a {
+  text-decoration: none;
 }
 
 nav {
-    float: right;
-    padding: 75px 25px;
+  float: right;
+  padding: 40px 25px;
 }
 
 nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav ul li a {
-    text-transform: capitalize;
-    text-decoration: underline;
-    font-size: 24px;
-    color: darksalmon;
-    padding-left: 80px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 24px;
+  color: #77a466;
+  padding-left: 80px;
 }
 
 header h2 {
-    width: 900px;
-    clear: both;
-    font-family: 'Lora', serif;
-    font-size: 60px;
-    color: gray;
-    padding: 20px 0 20px 25px;
+  width: 900px;
+  clear: both;
+  font-family: "Lora", serif;
+  font-size: 60px;
+  color: gray;
+  padding: 20px 0 20px 25px;
 }
 
 header h2 span {
-    color: darksalmon;
+  color: #77a466;
 }
-
-
-
 
 /***** About *****/
 #about .full-width {
@@ -91,7 +93,7 @@ header h2 span {
 /***** Work *****/
 #work {
   text-align: center;
-  background-color: #f9ceb7;
+  background-color: #def7d5;
 }
 
 #work .full-width {
@@ -126,55 +128,60 @@ header h2 span {
 }
 
 #contact img#contact-img {
+  width: 500px;
   margin-left: 25px;
   border: 12px solid #ffffff;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul
-{
-    padding-left: 115px;
+#contact h2,
+#contact #email-header,
+#contact #socialmedia-header,
+#contact ul {
+  padding-left: 115px;
 }
 
 #contact #envelope {
-    padding: 0 10px 0 115px;
+  padding: 0 10px 0 115px;
 }
 
 #contact h2 {
-    font-family: 'Lora', serif;
-    font-size: 40px;
-    line-height: 30px;
+  font-family: "Lora", serif;
+  font-size: 40px;
+  line-height: 30px;
 }
 
 #contact #email-header {
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 30px;
-    margin: -10px 0 10px 0px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: -10px 0 10px 0px;
 }
 
 #contact #socialmedia-header {
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 24px;
-    margin: 40px 0 0 0;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  margin: 40px 0 0 0;
 }
 
 #contact a {
-    text-decoration: none;
-    color: teal;
-    font-weight: normal;
-    font-size: 25px;
+  text-decoration: none;
+  color: #77a466;
+  font-weight: normal;
+  font-size: 25px;
 }
 
 #contact ul {
-    list-style: none;
-    margin-left: 50px;
+  list-style: none;
+  margin-left: 20px;
 }
 
 #contact ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
-#contact ul img {
-    padding-right: 48px;
+#contact ul li a {
+  padding: 0 20px;
 }
+
+/* Last edit Minggu malam */
