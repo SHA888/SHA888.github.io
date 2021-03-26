@@ -18,13 +18,13 @@
       src="https://kit.fontawesome.com/8541149f04.js"
       crossorigin="anonymous"
     ></script>
-    <title>Kresna Sucandra | Portfolio</title>
+    <title>Kresna Sucandra | Homepage</title>
   </head>
   <body>
     <header>
       <div class="full-width">
         <div class="half-width">
-          <h1>Kresna Sucandra</h1>
+          <a href="#"><img id="logo" src="img/logo.svg" alt="logo" /></a>
           <h2>
             <span>Hi,</span> I'm a web developer that loves clean &amp; elegant
             code.
@@ -34,7 +34,7 @@
           <nav>
             <ul>
               <li><a href="#about">About</a></li>
-              <li><a href="work/index.html">Work</a></li>
+              <li><a href="portfolio/index.html">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -42,34 +42,10 @@
       </div>
     </header>
     <main>
-      <section id="about">
-        <div class="full-width">
-          <h2>A little bit about me.</h2>
-          <div class="half-width">
-            <p>
-              I've made my home base in Bali, Indonesia, with my small growing
-              family. My journey into tech started with online coding bootcamp.
-              As I started sharing my writing online, I was fascinated with how
-              easily I could get my voice out there. I was hooked and wanted to
-              learn how to build my own site to fit my own specific needs.
-            </p>
-          </div>
-          <div class="half-width">
-            <p>
-              That curiosity then opened a door that could never be shut. When I
-              learned how to build my first website, I realized I found
-              something that gave me the freedom & versatility I was looking for
-              in my work. Now I've made a full switch to front-end development,
-              where I can use my organization skills and eye for detail to write
-              clean, elegant code.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- <section id="work">
+      <section id="work">
         <div class="full-width">
           <div class="third-width">
-            <img src="img/html-icon.png" alt="HTML icon" />
+            <img src="../img/html-icon.png" alt="HTML icon" />
             <h3>Hand-Coded HTML</h3>
             <p>
               My focus is writing clean, well-formatted, semantic HTML5 by hand
@@ -78,7 +54,7 @@
             </p>
           </div>
           <div class="third-width">
-            <img src="img/css-icon.png" alt="CSS icon" />
+            <img src="../img/css-icon.png" alt="CSS icon" />
             <h3>Well-Organized CSS</h3>
             <p>
               I pride myself on writing CSS that is easy to read and build on. I
@@ -87,7 +63,7 @@
             </p>
           </div>
           <div class="third-width">
-            <img src="img/pencil-icon.png" alt="pencil icon" />
+            <img src="../img/pencil-icon.png" alt="pencil icon" />
             <h3>Ease Converting Designs into Code</h3>
             <p>
               You can trust me to take a designer's PSD and quickly & accurately
@@ -95,8 +71,31 @@
             </p>
           </div>
         </div>
-      </section> -->
-      <footer id="contact">
+      </section>
+      <section id="about">
+        <div class="full-width">
+          <h2>A little bit about me.</h2>
+          <div class="half-width">
+            <p>
+              I've made my home base in Bali, Indonesia, with my small growing
+              family. My journey into tech started with online coding bootcamp.
+              I was hooked and wanted to learn how to build my own site to fit
+              my own specific needs.
+            </p>
+          </div>
+          <div class="half-width">
+            <p>
+              When I learned how to build my first website, I realized I found
+              something that gave me the freedom & versatility I was looking for
+              in my work. Now I've made a full switch to front-end development,
+              where I can use my organization skills and eye for detail to write
+              clean, elegant code.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
         <div class="full-width">
           <div class="half-width">
             <img
@@ -124,7 +123,7 @@
             <h3 id="email-header">Let's meet for a cup of coffee.</h3>
             <a id="envelope" href="mailto:kresnasucandra@gmail.com">
               <!-- <img id="envelope" src="img/envelope.png" alt="email" /> -->
-              <i class="far fa-envelope"></i>kresnasucandra [@] gmail.com</a
+              <i class="far fa-envelope"></i>hello@kresnasucandra.dev</a
             >
             <h3 id="socialmedia-header">Or, find me on the interwebs</h3>
             <ul>
@@ -152,8 +151,18 @@
             </ul>
           </div>
         </div>
-      </footer>
+      </section>
     </main>
     <!-- last edit Minggu malam -->
+
+    <footer class="bottom-menu bottom-menu-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 footer-column">
+            <p>© Kresna Sucandra | 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

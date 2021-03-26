@@ -29,17 +29,23 @@ header {
   background-position: center;
 }
 
-h1 {
+#logo {
+  width: 250px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* h1 {
   text-transform: uppercase;
-  padding: 30px 0 65px 25px;
+  padding: 50px 0 65px 25px;
   font-family: "Lora Bold", serif;
   font-size: 35px;
   color: #77a466 !important;
-}
+} */
 
-h1 a {
+/* h1 a {
   text-decoration: none;
-}
+} */
 
 nav {
   float: right;
@@ -48,14 +54,15 @@ nav {
 
 nav ul li {
   display: inline-block;
+  text-transform: uppercase;
 }
 
 nav ul li a {
-  text-transform: capitalize;
-  text-decoration: underline;
+  /* text-transform: capitalize; */
+  /* text-decoration: underline; */
   font-size: 24px;
   color: #77a466;
-  padding-left: 80px;
+  padding-left: 50px;
 }
 
 header h2 {
@@ -184,4 +191,11 @@ header h2 span {
   padding: 0 20px;
 }
 
-/* Last edit Minggu malam */
+footer {
+  font-size: 24px;
+  text-align: center;
+  background-color: #444444;
+  color: white;
+  padding: 15px 0;
+  margin: 0 auto;
+}
