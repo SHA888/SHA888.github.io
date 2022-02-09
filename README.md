@@ -4,7 +4,7 @@
 
 <br>
 Personal Repository |
-Built on Web 
+Built on Web
 
 <br>  
 <br>
@@ -13,8 +13,9 @@ Built on Web
 [![CSS version](https://img.shields.io/badge/CSS-TODO-blue)](#)
 [![JavaScript version](https://img.shields.io/badge/JavaScript-TODO-yellow)](#)
 [![License](https://img.shields.io/badge/License-Unlicensed-9cf)](#)
- <br />
+<br />
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2)](https://twitter.com/ks_sha888)
 [![Discord](https://img.shields.io/badge/Discord-gray?logo=discord)](#)
 [![Telegram](https://img.shields.io/badge/Telegram-gray?logo=telegram)](#)
+
 </div>
