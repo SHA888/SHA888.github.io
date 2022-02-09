@@ -11,15 +11,15 @@
     <header>
       <img src="http://via.placeholder.com/200x70" alt="logo" />
       <nav>
-        <ul>
+        <ul role="navlist">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" role="nav">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html" role="nav">About</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" role="nav">Contact</a>
           </li>
         </ul>
       </nav>
@@ -27,6 +27,25 @@
     <div>
       <section>
         <h1>Contact</h1>
+      </section>
+      <section>
+        <form action="" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required />
+
+          <label class="standard-label" for="contact-phone">Telephone: </label>
+          <input
+            type="tel"
+            id="contact-phone"
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+          />
+
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea id="contact-message" required maxlength="240"></textarea>
+          <input type="submit" value="Send message" />
+        </form>
+      </section>
+      <section>
         <div>
           CareerFoundry GmbH<br />
           Köpenicker Str. 126<br />
@@ -43,5 +62,7 @@
     <div>
       <footer></footer>
     </div>
+
+    <script src="js/tota11y.min.js"></script>
   </body>
 </html>
