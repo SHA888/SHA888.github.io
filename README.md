@@ -9,8 +9,8 @@ Built on Web
 <br>  
 <br>
 
-[![HTML version](https://img.shields.io/badge/HTML-passed-orange)](#)
-[![CSS version](https://img.shields.io/badge/CSS-in--progress-blue)](#)
+[![HTML version](https://img.shields.io/badge/HTML-Passed-orange)](#)
+[![CSS version](https://img.shields.io/badge/CSS-In--Progress-blue)](#)
 [![JavaScript version](https://img.shields.io/badge/JavaScript-TODO-yellow)](#)
 [![License](https://img.shields.io/badge/License-Unlicensed-9cf)](#)
 <br />
