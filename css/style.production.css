@@ -12,16 +12,8 @@
 */
 
  /* Color Palette */
- $primary-color: #357b70;
- $primary-color-lighter: lighten($primary-color, 30%);
- $secondary-color: #05676e;
- $tertiary-color: #489c79;
- $white-color: #EEEEEE;
- $sun-primary: #edc655;
- $sun-secondary: #fcffad;
- $sun-tertiary: #f76414;
 
-* {
+ * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -71,7 +63,7 @@ table {
 /* Actual CSS */
 
 body {
-  background-color: $white-color;
+  background-color: #EEEEEE;
   font-family: "Raleway", sans-serif;
 }
 
@@ -103,12 +95,12 @@ body {
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
-  margin-right: 15px;
 }
 
 div {
   padding: 10px;
   margin: 10px;
+  /* border: 1px solid black; */
   margin: 20 auto;
 }
 
@@ -128,7 +120,7 @@ p {
 /* Link Styling */
 
 a {
-  color: $primary-color;
+  color: #357b70;
 }
 
 a:hover {
@@ -138,24 +130,24 @@ a:hover {
 
 a:visited {
   /* visited link */
-  color: $secondary-color;
+  color: #05676e;
 }
 
 a:active {
   /* selected link */
-  color: $tertiary-color;
+  color: #489c79;
 }
 
 /* Button Styling */
 
 .submit-button {
-  background-color: $tertiary-color;
-  color: $white-color;
+  background-color: #489c79;
+  color: #EEEEEE;
 }
 
 .submit-button:hover {
-  background-color: $white-color;
-  color: $tertiary-color;
+  background-color: #EEEEEE;
+  color: #489c79;
 }
 
 .profile,
@@ -199,7 +191,7 @@ a:active {
 }
 
 .grid__item {
-  background-color: $primary-color-lighter;
+  background-color: lighten($primary-color, 30%);
 }
 
 .grid__item:last-child {
@@ -229,7 +221,7 @@ a:active {
     margin: 0;
   }
   .grid__item {
-    background-color: $primary-color-lighter;
+    background-color: lighten($primary-color, 30%);
     width: auto;
     min-height: auto;
     margin: 0;
@@ -269,12 +261,25 @@ a:active {
   }
 }
 
-.button,
+.button {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: #357b70;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.9s opacity;
+  -o-transition: 0.9s opacity;
+  transition: 0.9s opacity;
+}
+
 button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: $primary-color;
+  background-color: #357b70;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -294,9 +299,12 @@ button:focus,
   opacity: 0.8;
 }
 
-a.button,
+a.button {
+  color: #EEEEEE;
+}
+
 input.button {
-  color: $white-color;
+  color: #EEEEEE;
 }
 
 .berlin-illustration {
@@ -310,25 +318,25 @@ input.button {
 
 @-webkit-keyframes color-change {
   0% {
-    fill: $sun-primary;
+    fill: #edc655;
   }
   50% {
-    fill: $sun-secondary;
+    fill: #fcffad;
   }
   100% {
-    fill: $sun-tertiary;
+    fill: #f76414;
   }
 }
 
 @keyframes color-change {
   0% {
-    fill: $sun-primary;
+    fill: #edc655;
   }
   50% {
-    fill: $sun-secondary;
+    fill: #fcffad;
   }
   100% {
-    fill: $sun-tertiary;
+    fill: #f76414;
   }
 }
 
