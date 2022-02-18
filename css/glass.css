@@ -250,6 +250,29 @@ body.light-mode .video-bg:before {
   font-weight: 500;
 }
 
+form input, textarea {
+  width: 100%;
+  height: 20%;
+  border: none;
+  background-color: var(--search-bg);
+  border-radius: 4px;
+  font-family: var(--body-font);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 20px 0 40px;
+  box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: 16px 48%;
+  color: var(--theme-color);
+}
+.form input::placeholder {
+  font-family: var(--body-font);
+  color: var(--inactive-color);
+  font-size: 15px;
+  font-weight: 500;
+}
+
 .header-profile {
   display: flex;
   align-items: center;
@@ -877,6 +900,68 @@ body.light-mode .video-bg:before {
     margin-top: 20px;
   }
   .app-card + .app-card {
+    margin-left: 0;
+  }
+}
+
+form .app-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.3% - 40px);
+  font-size: 16px;
+  background-color: var(--content-bg);
+  border-radius: 14px;
+  border: 1px solid var(--theme-bg-color);
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+form .app-card:hover {
+  transform: scale(1.02);
+  background-color: var(--theme-bg-color);
+}
+form .app-card svg {
+  width: 28px;
+  border-radius: 6px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+form .app-card + .app-card {
+  margin-left: 20px;
+}
+form .app-card span {
+  display: flex;
+  align-items: center;
+}
+form .app-card__subtext {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin-top: 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 20px;
+}
+form .app-card-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 16px;
+}
+@media screen and (max-width: 1110px) {
+  form .app-card {
+    width: calc(50% - 20px);
+  }
+  form .app-card:last-child {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 565px) {
+  form .app-card {
+    width: calc(100% - 20px);
+    margin-top: 20px;
+  }
+  form .app-card + .app-card {
     margin-left: 0;
   }
 }
