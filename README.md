@@ -10,8 +10,8 @@ Built on Web
 <br>
 
 [![HTML version](https://img.shields.io/badge/HTML-Passed-orange)](#)
-[![CSS version](https://img.shields.io/badge/CSS-In--Progress-blue)](#)
-[![JavaScript version](https://img.shields.io/badge/JavaScript-TODO-yellow)](#)
+[![CSS version](https://img.shields.io/badge/CSS-Passed-blue)](#)
+[![JavaScript version](https://img.shields.io/badge/JavaScript-In--Progress-yellow)](#)
 [![License](https://img.shields.io/badge/License-Unlicensed-9cf)](#)
 <br />
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2)](https://twitter.com/ks_sha888)
