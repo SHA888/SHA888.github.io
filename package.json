@@ -1,0 +1,27 @@
+{
+  "name": "sha888.github.io",
+  "version": "1.0.0",
+  "description": "SHGA888 portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "devmon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHA888/SHA888.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Kresna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHA888/SHA888.github.io/issues"
+  },
+  "homepage": "https://github.com/SHA888/SHA888.github.io#readme",
+  "dependencies": {
+    "devmon": "^0.0.1"
+  }
+}

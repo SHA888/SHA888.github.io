@@ -62,12 +62,73 @@ table {
   border-spacing: 0;
 }
 
-/* Actual CSS */
+/*------------------------------------
+  Default Styles
+------------------------------------*/
+html {
+  font-size: 1rem;
+}
 
 body {
-  background-color: var(--white-color);
   font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  color: #1b1e24;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
 }
+
+p {
+  line-height: 1.8;
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+hr {
+  border-color: #e6e7e9;
+}
+
+[role=button] {
+  cursor: pointer;
+}
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6;
+}
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+::-moz-selection {
+  color: #fff;
+  background-color: #2972fa;
+}
+
+::selection {
+  color: #fff;
+  background-color: #2972fa;
+}
+
+.bg-primary ::-moz-selection {
+  color: #2972fa;
+  background-color: #fff;
+}
+
+.bg-primary ::selection {
+  color: #2972fa;
+  background-color: #fff;
+}
+
 
 .page-header {
   display: flex;
@@ -134,7 +195,57 @@ a:active {
   color: var(--tertiary-color);
 }
 
-/* Button Styling */
+/*----------------------------------
+  Buttons
+------------------------------------*/
+
+.btn {
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.btn.focus,
+.btn:focus .btn.active:focus, .btn:active:focus {
+  outline: 0 none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.btn--circle {
+  border-radius: 100%;
+  padding: 0;
+  width: 2.625rem;
+  height: 2.625rem;
+  line-height: 2.625rem;
+}
+
+.btn--circle.btn-sm {
+  width: 1.9375rem;
+  height: 1.9375rem;
+  line-height: 1.9375rem;
+}
+
+.btn--circle.btn-lg {
+  width: 3.25rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
+}
+
+.btn--pill {
+  border-radius: 6.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.btn--pill.btn-sm {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.btn--pill.btn-lg {
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
 
 .submit-button {
   background-color: var(--tertiary-color);
